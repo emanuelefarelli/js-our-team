@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 1000px;
+    border-radius: 1rem;
+}
+
+ul{
+    width: 100%;
+    padding-left: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li{
+    width: calc((100% / 3 - 4rem));
+    margin: 2rem;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+li>div{
+    text-align: center;
+}
+
+li>div>p{
+    margin: 0;
+    padding: 1rem 0;
+}
+
+li>div>img{
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
