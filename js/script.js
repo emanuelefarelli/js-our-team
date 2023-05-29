@@ -31,3 +31,11 @@ const team = [
     },
 
 ];
+
+
+for(let i = 0 ; i < team.length ; i++){
+    const name = team[i].name;
+    const role = team[i].role;
+    const badge = team[i].badge;
+    console.log(`membro: ${i} nome: ${name} ruolo: ${role} img: ${badge}`);
+}
